@@ -4,4 +4,4 @@
 
 # CHARTES GRAPHIQUE
 
-![Logo Markdown](https://example.com/logo.png)
+![Logo Markdown](./IMAGE/Charte.png)
