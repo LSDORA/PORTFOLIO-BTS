@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="./CSS/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./ICON/jhjhjhj.png">
   <meta name="description" content="Put your description here.">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
 </head>
 <body>
@@ -94,27 +95,13 @@
  <section class="c" id="c">
   <img src="./ICON/ai's2.png" width="150rem" height="150rem" alt="">
    <div class="line1"></div>
-   <form class="ma">
-    <div class="contla">
-      <div>
-         <h3>Name</h3>        
-      <input class="la" type="text" aria-label="name" placeholder=""></div>
-      <div>
-         <h3>Mail</h3>
-      <input class="la" type="email" aria-label="Mail" placeholder=""></div>
-      <div>
-         <h3>Phone</h3>
-      <input class="la" type="tel" aria-label="Phone" placeholder="" ></div>
-    </div>
-    <div>
-      <h3>Message</h3>
-      <textarea class="ms" rows="6" cols="40" aria-label="text" placeholder=""></textarea>
-    </div>
-    <div>
-      <input class="xa" type="submit" value="→">
-    </div>
-   </form>
-
+  
+   <div id="scene-container" class="troisd">
+    <model-viewer class="troisc" alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="free_-_skybox_enchanted_forest.glb" ar environment-image="free_-_skybox_enchanted_forest.glb" poster="free_-_skybox_enchanted_forest.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+   </div>
+   
+   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
    <div class="line"></div>
 

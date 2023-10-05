@@ -1,6 +1,6 @@
 /* GENERAL*/
 *{
-    cursor: url(../CURSOR/icons8-cursor-25.png),pointer;
+    cursor: url(../CURSOR/GhostlyArrow.cur),pointer;
 
 }
 html{
@@ -228,7 +228,8 @@ body{
     margin-top: 2.5rem;
    height: 35rem;
   color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.8)), url(../IMAGE/WORK/DD.png);
+    background: url(../IMAGE/pcecoreport.png);
+    background-size: 100%;
    width: 25rem;
    display: inline-block;
    
@@ -238,8 +239,8 @@ body{
     margin-top: 2.5rem;
    height: 35rem;
    color: white;
-   background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.8)),url(../IMAGE/WORK/AA.png);
-
+   background: url(../IMAGE/pcservadmin.png);
+   background-size: 100%;
    width: 25rem;
    display: inline-block;
    
@@ -284,7 +285,7 @@ body{
 .vecont{
     margin-top: 12rem;
     background-color: rgb(255, 255, 255);
-    width: 40%;
+    width: 38rem;
     height: 20rem; 
     
 }
@@ -530,6 +531,16 @@ z-index: 15;
     
 }
 
+.troisd{
+ height: 100%;
+ width: 100%;
 
+}
+.troisc{
+    height: 50%;
+    width: 50%;
+    transform: translateZ(20rem);
+   
+   }
 
   
