@@ -1,4 +1,7 @@
 # PORTFOLIO NGAMPOLO AYMERICK
-**[VIEW](  https://lsdora.github.io/PORTFOLIO-BTS/ )
+**Lien vers mon Portfolio :
+[VIEW](  https://lsdora.github.io/PORTFOLIO-BTS/ )
 
-# RER
+# CHARTES GRAPHIQUE
+
+![Logo Markdown](https://example.com/logo.png)
