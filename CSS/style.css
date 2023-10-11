@@ -196,13 +196,14 @@ body{
     }
     
 }
-.wor{
-    color: whitesmoke; background-color: rgb(184, 150, 177);
-}
-.fwor{
-    color: rgb(118, 85, 111);
-    background: none;
-}
+
+
+.onwor{color: whitesmoke; background-color: rgb(184, 150, 177);}
+.offwor{ color: rgb(118, 85, 111);background: none;}
+.wor{color: rgb(118, 85, 111);background: none;}
+.fwor{color: rgb(118, 85, 111);background: none;}
+
+
 .workpanel{
     height: 40rem;
     justify-content: center;
@@ -230,17 +231,44 @@ body{
   color: white;
     background: url(../IMAGE/pcecoreport.png);
     background-size: 100%;
-   width: 25rem;
+   width: 25rem; text-align: center;
    display: inline-block;
+  
+}
+.bg{backdrop-filter: brightness(60%);
+    margin-top: -20px;
+ height: 100%;
+}
+.bg h4{
+    margin-bottom: 3rem;
    
 }
+.bg h3{
+    margin-bottom: 2rem;
+   
+}
+.bg h2{
+    
+    padding-top: 8rem;
+      margin-bottom: 4rem;
+  }
+
+.bg2{backdrop-filter: brightness(60%);
+    margin-top: -20px;
+ height: 100%;
+}.bg3{backdrop-filter: brightness(60%);
+    margin-top: -20px;
+ height: 100%;
+}
+
 .wpanelcont2{
     margin: 0.5rem;
-    margin-top: 2.5rem;
+    margin-top: 2.5rem; text-align: center;
    height: 35rem;
    color: white;
    background: url(../IMAGE/pcservadmin.png);
    background-size: 100%;
+   
    width: 25rem;
    display: inline-block;
    
@@ -249,8 +277,10 @@ body{
     margin: 0.5rem;
     margin-top: 2.5rem;
    height: 35rem;
-   color: white;
-   background:linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.8)), url(../IMAGE/WORK/BB.png);
+   color: white; text-align: center;
+   background-size: 100%;
+
+   background:url(../IMAGE/WORK/BB.png);
    width: 25rem;
    display: inline-block;
    

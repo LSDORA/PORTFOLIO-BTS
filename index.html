@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./ICON/jhjhjhj.png">
   <meta name="description" content="Put your description here.">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-
+  <script src="./JS/anime.js"></script> 
 </head>
 <body>
   <section class="headd">
@@ -50,30 +50,42 @@
     <div class="b">
     
      <div class="button">
-          <button class="wor" value="">WORK</button>
-          <button class="fwor" value="">FUN WORK</button>
+      <button class="wor" id="wor" onclick="switchButtons()">WORK</button>
+      <button class="fwor" id="fwor" onclick="switchButtons()">FUN WORK</button>
+      <div class="dwor"></div>
+      <script src="./JS/anime.js"></script>    
      </div>
 
     </div>
     <div class="workpanel"> 
       <div class="arrow"><h1><</h1></div>
+      
       <div class="wpanelcont">
+        <div class="bg">
         <h2>EcoReport</h2>
         <h3>ECOBANK INTERNATIONAL</h3>
         <h4>REACTJS|JAVA|MAVEN|ORACLE DEV|ANT DESIGN</h4>
         <p>C'est une application sur la quelle j'ai travail qui permet au utilisateur de consulter,, d'apporter des modification sur des tables contenu sur une base de donnée interne dont l'acces n'est réserver qu'au departement IT</p>
 
       </div>
+</div>
+      
       <div class="wpanelcont2">
+<div class="bg2">
         <h2>ServAdmin</h2>
         <h3>ECOLE IRIS PARIS</h3>
         <h4>JAVA|CSS|PHP MY ADMIN</h4>
         <p>C'est une application de Gestion d'éléve</p>
+
       </div>
+</div>
+     
       <div class="wpanelcont3">
+         <div class="bg3">
         <h2>Mon Portfolio</h2>
         <h3>ECOLE ITIC PARIS</h3>
         <h4>REACTJS|LARAVEL|HTML|CSS</h4>
+      </div>
       </div>
       <div class="arrow"><h1>></h1></div>
     </div>
