@@ -1,19 +1,8 @@
-// Fonction pour basculer les propriétés CSS des boutons
-function switchButtons() {
-    const worButton = document.getElementById('wor');
-    const fworButton = document.getElementById('fwor');
-    const ON = document.getElementById('onwor');
-    const OFF = document.getElementById('offwor');
-  
-   
+function handleswitchButtons() {
+  const activeElement = document.querySelector(".wor.active");
+  const inactiveElement = document.querySelector(".wor:not(.active)");
 
+  activeElement.classList.remove("active");
 
-    const tempClassList = worButton.classList;
-    worButton.className = fworButton.className;
-    fworButton.className = tempClassList;
-  
- 
-  
-   
-  }
-  
+  inactiveElement.classList.add("active");
+}
