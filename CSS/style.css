@@ -28,6 +28,7 @@ body{
 .headd{
     height: 47rem;
     background: url(../IMAGE/op2.png) ;background-size: 100%;
+    transition: background 2s;
 }
 /* NAVBAR*/
 
@@ -36,7 +37,7 @@ body{
     height: 3rem;
     background: #16171900;
     position: absolute;
-    z-index: 2;
+    z-index: 150;
     margin: 0;display: flex;
     justify-content: center;
     transform: translateY(-60px);
@@ -81,7 +82,53 @@ body{
     color: black;
     
 }
+.lantern{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 60rem;z-index: 6;
+}
 
+@keyframes clignotement {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+        opacity: 0;
+      }
+      40% {
+        opacity: 1;
+      }
+      70% {
+        opacity: 0;
+      }
+      90% {
+        opacity: 1;
+      }
+  }
+  
+
+  
+  .lantern.clignote {
+    animation: clignotement 1s infinite;
+  }
+
+
+  
+.lantern1{
+    position: absolute;
+    margin: 0;z-index: 5;
+    padding: 0;
+   
+    left: 60rem;
+}
 .cont{
     overflow: hidden;
     height: 3.2rem;
@@ -124,7 +171,7 @@ body{
 
 .presentation{
     display: flex;
-    justify-content: center;  background-color: rgb(246, 228, 243);
+    justify-content: center;  background-color: rgb(246, 228, 243);transition: background-color 2s;
 }
 .presentation p {
     width: 95%;
@@ -183,7 +230,7 @@ body{
 .b{
     height: 7rem;
     overflow: hidden;
-    
+    margin-bottom: 5rem;
     justify-content: center;
     display: flex;
 }
@@ -239,7 +286,7 @@ body{
 }
 .arrow{
     height: 35rem;margin-top: 2.5rem;
-    width: 5rem;  background-color: rgb(246, 228, 243); display: inline-block;
+    width: 5rem;  background-color: rgba(246, 228, 243, 0); display: inline-block;
     color: rgb(118, 85, 111);
     font-size: 2rem;
     text-align: center;
@@ -261,14 +308,26 @@ body{
     
    width: 25rem; text-align: center;
    display: inline-block;
+   transform: translateY(0rem);
+   transition: transform 1s;
+
   
+}
+.wpanelcont:hover{
+    transform: translateY(-5rem);
+}
+.wpanelcont2:hover{
+    transform: translateY(-5rem);
+}
+.wpanelcont3:hover{
+    transform: translateY(-5rem);
 }
 .bg{
     margin-top: -20px;;opacity: 0;
  height: 100%;backdrop-filter: brightness(100%);
  transition: backdrop-filter 0.8s,opacity 0.8s;
 }
-.bg:hover{backdrop-filter: brightness(40%);;opacity: 1;}
+.bg:hover{backdrop-filter: brightness(20%);;opacity: 1;}
 .bg h4{
     margin-bottom: 3rem;
    
@@ -283,15 +342,33 @@ body{
       margin-bottom: 4rem;
   }
 
+  .bg2 h4{
+    margin-bottom: 3rem;
+   
+}
+.bg2 h3{
+    margin-bottom: 2rem;
+   
+}
+.bg2 h2{
+    
+    padding-top: 8rem;
+      margin-bottom: 4rem;
+  }
 
-
-
-
-
-
-
-
-
+  .bg3 h4{
+    margin-bottom: 3rem;
+   
+}
+.bg3 h3{
+    margin-bottom: 2rem;
+   
+}
+.bg3 h2{
+    
+    padding-top: 8rem;
+      margin-bottom: 4rem;
+  }
 
   .bg2{
     opacity: 0;
@@ -299,14 +376,14 @@ body{
  height: 100%;backdrop-filter: brightness(100%);
  transition: backdrop-filter 0.8s,opacity 0.8s;
 }
-.bg2:hover{backdrop-filter: brightness(40%);opacity: 1;}
+.bg2:hover{backdrop-filter: brightness(20%);opacity: 1;}
 
 .bg3{
     margin-top: -20px;
  height: 100%;backdrop-filter: brightness(100%);
  transition: backdrop-filter 0.8s,opacity 0.8s;;opacity: 0;
 }
-.bg3:hover{backdrop-filter: brightness(60%);;opacity: 1;}
+.bg3:hover{backdrop-filter: brightness(20%);;opacity: 1;}
 .wpanelcont2{
     margin: 0.5rem;
     margin-top: 2.5rem; text-align: center;
@@ -317,7 +394,8 @@ body{
    
    width: 25rem;
    display: inline-block;
-   
+   transform: translateY(0rem);
+   transition: transform 1s;
 }
 .wpanelcont3{
     margin: 0.5rem;
@@ -329,7 +407,8 @@ body{
    background:url(../IMAGE/WORK/port.png);   background-size: cover;
    width: 25rem;
    display: inline-block;
-   
+      transform: translateY(0rem);
+   transition: transform 1s;
 }
 
 /*veille*/
@@ -340,19 +419,26 @@ body{
     justify-content: center;
     /*background-color: palevioletred;*/
     background: url(../IMAGE/pexels-mo-eid-9002742.jpg);
+    transition: background 2s;
 }
 .v img{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 228, 243);
 }
 .v button{
+    background-color: rgb(184, 150, 177);;
+    color: white;
+    border: none;
     height: 1.5rem;
     width: 15rem;
     margin-left: 2.5rem;
 }
+.v button:hover{
+    background-color: rgb(118, 85, 111);
 
+}
 .vecont{
     margin-top: 12rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 228, 243);
     width: 38rem;
     height: 20rem; 
     
@@ -611,4 +697,41 @@ z-index: 15;
    
    }
 
-  
+  .contact{
+    position: absolute;
+    display: none;
+    top: 2.7rem;
+   height: 15rem;
+   left: 76.8rem;
+   margin: 0;
+   padding: 0;
+   width: 18rem;
+   
+   
+  }
+  .contact a {
+    text-decoration: none;
+  }
+  .contact ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+ 
+  }
+  .contact li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 3.5rem;
+    text-align: center;
+    align-items: center;
+    height: 4.2rem;
+    color: white;
+    background-color: rgb(118, 85, 111);
+  }
+
+.contact li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 85, 111);
+}
