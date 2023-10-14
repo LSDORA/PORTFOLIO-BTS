@@ -43,7 +43,3 @@ if (currentBackgroundImage.includes('op4')) {
 }
 
 
-burger() {
-  const on = document.querySelector(".contact");
-  on.style.display = 'block';
-}
