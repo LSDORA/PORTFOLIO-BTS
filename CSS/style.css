@@ -1,0 +1,108 @@
+/*Font*/
+
+@font-face {
+    font-family: 'jeju'; 
+    src: url('/FONT/JejuGothic-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'title'; 
+    src: url('/FONT/Monoton-Regular.ttf') format('truetype');
+    
+   
+}
+
+@font-face {
+    font-family: 'reg'; 
+    src: url('/FONT/MiriamLibre-Regular.ttf') format('truetype');
+ }
+
+@font-face {
+    font-family: 'bold'; 
+    src: url('/FONT/MiriamLibre-Bold.ttf') format('truetype');
+  }
+
+
+
+
+
+/*General*/
+
+html{ font-size: 65.5%;}
+
+body{margin: 0;padding: 0;
+ 
+}
+
+nav{
+    position: absolute;
+    direction: rtl;
+}
+nav ul {}
+nav ul li {
+    list-style: none; 
+    
+}
+
+/*HOME*/
+
+.HOME{
+    background-color: #24334B;
+    height: 72vw;position: relative;
+    width: 100%;
+}
+
+@media (max-width: 2560px) {
+
+}
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+    .HOME{
+        background-color: #24334B;
+        height: 210vw;position: relative;
+        width: 100%;
+    }
+}
+@media (max-width: 320px) {
+.HOME{
+        background-color: #24334B;
+        height: 210vw;
+        width: 100%;
+}
+.logo{
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+} 
+.light{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+.HOME h1{
+    font-family: 'title';
+    margin-top: 15rem;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+}
+.HOME h2{
+    font-family: 'reg';
+    margin-left: 2.5rem;
+    color: whitesmoke;
+    font-style: normal;
+    width: 25rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+}
+}
