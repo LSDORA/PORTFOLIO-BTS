@@ -15,6 +15,7 @@
 @font-face {
     font-family: 'reg'; 
     src: url('/FONT/MiriamLibre-Regular.ttf') format('truetype');
+    font-weight: 200;
  }
 
 @font-face {
@@ -29,21 +30,14 @@
 /*General*/
 
 html{ font-size: 65.5%;}
+section{margin: 0;padding: 0;}
+body{margin: 0;padding: 0;}
+h1{margin: 0;padding: 0;}
 
-body{margin: 0;padding: 0;
- 
+/*HOVER*/
+.contactdirect:hover{
+    filter: contrast(200%);
 }
-
-nav{
-    position: absolute;
-    direction: rtl;
-}
-nav ul {}
-nav ul li {
-    list-style: none; 
-    
-}
-
 /*HOME*/
 
 .HOME{
@@ -53,24 +47,270 @@ nav ul li {
 }
 
 @media (max-width: 2560px) {
-
+    nav{
+        position: absolute;
+        direction: rtl;
+        z-index: 10;
+    }
+    nav ul {}
+    nav ul li {
+        list-style: none; 
+        color: whitesmoke;
+        
+    }
+    
 }
 @media (max-width: 1440px) {
-
+    nav{
+        position: fixed;
+        
+        top: 25rem ;
+        left: 93%;
+        z-index: 10;
+    }
+    nav ul {}
+    nav ul li {
+        font-family: 'jeju';
+        font-size: 1.5rem;
+        list-style: none; 
+        color: whitesmoke;
+        direction: rtl;
+    }
+    
+.HOME{
+        position: sticky;
+        background-color: #24334B;
+        height: 65vw;
+        width: 100%;
 }
-@media (max-width: 768px) {
+.logo{
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+} 
+.light{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 90%;
+    margin-top: 1rem;
+}
+.HOME h1{
+    font-family: 'title';
+    margin-top: 18rem;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+}
+.HOME h2{
+    font-family: 'reg';
+    margin-left: 2.5rem;
+    color: whitesmoke;
+    font-style: normal;
+    margin: 0 10%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
 
+/*WORK*/
+
+.WORK{
+    position: sticky;
+    background-color: #DCDCDC;
+    height: 65vw;
+    width: 100%;
+}
+
+/*INFO*/
+
+.INFO{
+    background-color: #C5C5C5;
+    height: 65vw;
+    width: 100%;
+}
+.INFO h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 5%;
+  font-size: 2rem;font-family: 'reg',sans-serif;
+}
+.INFO h1:first-child{
+    padding-top: 12rem;
+    margin-bottom: 4rem;
+}
+.INFO ul{ display: flex;padding: 0; justify-content: center;}
+.INFO ul li{display: block;margin: 0 2%;}
+.INFO ul li img{height: 5rem;width: 5rem;}
+.INFO ul li h2{font-size: 1.3rem;text-align: center;font-family: 'reg',sans-serif;}
+
+.INFO button{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-color: #24334B ;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 46%;
+    margin-top: 4rem;
+}
+.INFO button:hover{background-color: #577cb7 ;}
+.INFO button h2{color: whitesmoke;font-size: 2rem;font-family: 'reg',sans-serif;}
+.INFO h3{font-size: 1.2rem;margin-left: 44.5%;;font-family: 'reg',sans-serif;}
+
+
+/*VEILLE*/
+
+.VEILLE{
+    background-image: url(/IMAGE/awwwardssite2.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    background-clip: content-box;
+    height: 65vw;
+    width: 100%;
+}
+.VEILLE img{height: 4rem;width: 30rem;margin-top: 8rem;margin-left: 30%;}
+.VEILLE p{color: whitesmoke;font-size: 1.5rem;text-align: center;}
+.VEILLE button{width: 96%;margin: 0 2%;font-size: 1.5rem;}
+}
+
+@media (max-width: 768px) {
+    nav{
+        position: fixed;
+        text-align: center;
+        top: 50rem ;
+        left: 46.5%;
+        z-index: 10;
+    }
+    nav ul {}
+    nav ul li {
+        font-family: 'jeju';
+        font-size: 1.5rem;
+        list-style: none; 
+        color: whitesmoke;
+        
+    }
+    
+.HOME{
+        position: sticky;
+        background-color: #24334B;
+        height: 90vw;
+        width: 100%;
+}
+.logo{
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+} 
+.light{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 80%;
+    margin-top: 1rem;
+}
+.HOME h1{
+    font-family: 'title';
+    margin-top: 18rem;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+}
+.HOME h2{
+    font-family: 'reg';
+    margin-left: 2.5rem;
+    color: whitesmoke;
+    font-style: normal;
+    margin: 0 10%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+/*WORK*/
+
+.WORK{
+    position: sticky;
+    background-color: #DCDCDC;
+    height: 90vw;
+    width: 100%;
+}
+
+/*INFO*/
+
+.INFO{
+    background-color: #C5C5C5;
+    height: 90vw;
+    width: 100%;
+}
+.INFO h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 5%;
+  font-size: 1.2rem;font-family: 'reg',sans-serif;
+}
+.INFO h1:first-child{
+    padding-top: 12rem;
+    margin-bottom: 4rem;
+}
+.INFO ul{ display: flex;padding: 0; justify-content: center;}
+.INFO ul li{display: block;margin: 0 2%;}
+.INFO ul li img{height: 3rem;width: 3rem;}
+.INFO ul li h2{font-size: .9rem;text-align: center;font-family: 'reg',sans-serif;}
+
+.INFO button{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-color: #24334B ;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 46%;
+    margin-top: 4rem;
+}
+.INFO button:hover{background-color: #577cb7 ;}
+.INFO button h2{color: whitesmoke;font-size: 2rem;font-family: 'reg',sans-serif;}
+.INFO h3{font-size: .7rem;margin-left: 46.5%;;font-family: 'reg',sans-serif;}
+
+
+/*VEILLE*/
+
+.VEILLE{
+    background-image: url(/IMAGE/awwwardssite2.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    background-clip: content-box;
+    height: 90vw;
+    width: 100%;
+}
+.VEILLE img{height: 4rem;width: 30rem;margin-top: 8rem;margin-left: 30%;}
+.VEILLE p{color: whitesmoke;font-size: 1.5rem;text-align: center;}
+.VEILLE button{width: 96%;margin: 0 2%;font-size: 1.5rem;}
 }
 
 @media (max-width: 425px) {
-    .HOME{
-        background-color: #24334B;
-        height: 210vw;position: relative;
-        width: 100%;
+    nav{
+        position: fixed;
+        text-align: center;
+        top: 50rem ;
+        left: 44.5%;
+        z-index: 10;
     }
-}
-@media (max-width: 320px) {
+    nav ul {}
+    nav ul li {
+        font-family: 'jeju';
+        font-size: 1.5rem;
+        list-style: none; 
+        color: whitesmoke;
+        
+    }
+    
 .HOME{
+        position: sticky;
         background-color: #24334B;
         height: 210vw;
         width: 100%;
@@ -83,7 +323,7 @@ nav ul li {
 .light{
     height: 2rem;
     width: 2rem;
-    margin-left: 20rem;
+    margin-left: 70%;
     margin-top: 1rem;
 }
 .HOME h1{
@@ -100,9 +340,192 @@ nav ul li {
     margin-left: 2.5rem;
     color: whitesmoke;
     font-style: normal;
-    width: 25rem;
+    margin: 0 10%;
     text-align: center;
     font-weight: 400;
     font-size: 1rem;
 }
+
+/*WORK*/
+
+.WORK{
+    position: sticky;
+    background-color: #DCDCDC;
+    height: 210vw;
+    width: 100%;
+}
+
+/*INFO*/
+
+.INFO{
+    background-color: #C5C5C5;
+    height: 210vw;
+    width: 100%;
+}
+.INFO h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 5%;
+  font-size: 1.2rem;font-family: 'reg',sans-serif;
+}
+.INFO h1:first-child{
+    padding-top: 12rem;
+    margin-bottom: 4rem;
+}
+.INFO ul{ display: flex;padding: 0; justify-content: center;}
+.INFO ul li{display: block;margin: 0 2%;}
+.INFO ul li img{height: 3rem;width: 3rem;}
+.INFO ul li h2{font-size: .9rem;text-align: center;font-family: 'reg',sans-serif;}
+
+.INFO button{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-color: #24334B ;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 42%;
+    margin-top: 4rem;
+}
+.INFO button:hover{background-color: #577cb7 ;}
+.INFO button h2{color: whitesmoke;font-size: 2rem;font-family: 'reg',sans-serif;}
+.INFO h3{font-size: .7rem;margin-left: 43.5%;;font-family: 'reg',sans-serif;}
+
+
+/*VEILLE*/
+
+.VEILLE{
+    background-image: url(/IMAGE/awwwardssite2.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    background-clip: content-box;
+    height: 210vw;
+    width: 100%;
+}
+.VEILLE img{height: 4rem;width: 30rem;margin-top: 8rem;margin-left: 13%;}
+.VEILLE p{color: whitesmoke;font-size: 1.5rem;text-align: center;}
+.VEILLE button{width: 96%;margin: 0 2%;font-size: 1.5rem;}
+}
+@media (max-width: 320px) {
+    nav{
+        position: fixed;
+        text-align: center;
+        top: 50rem ;
+        left: 42.5%;
+        z-index: 10;
+    }
+    nav ul {}
+    nav ul li {
+        font-family: 'jeju';
+        font-size: 1.5rem;
+        list-style: none; 
+        color: whitesmoke;
+        
+    }
+    
+.HOME{
+        position: sticky;
+        background-color: #24334B;
+        height: 210vw;
+        width: 100%;
+        display: block;
+}
+.HOME div{
+    display: flex; 
+    flex-direction: row; 
+}
+.logo{
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+} 
+.light{
+    height: 2rem;
+    width: 2rem;
+    display: flex; 
+    margin-left: 70%;
+    margin-top: 1rem;
+}
+
+.HOME h1{
+    font-family: 'title';
+    margin-top: 15rem;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+}
+.HOME h2{
+    font-family: 'reg';
+  
+    color: whitesmoke;
+    font-style: normal;
+    margin: 0 10%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/*WORK*/
+
+.WORK{
+    position: sticky;
+    background-color: #DCDCDC;
+    height: 210vw;
+    width: 100%;
+}
+
+/*INFO*/
+
+.INFO{
+    background-color: #C5C5C5;
+    height: 210vw;
+    width: 100%;
+}
+.INFO h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 5%;
+  font-size: 1.2rem;font-family: 'reg',sans-serif;
+}
+.INFO h1:first-child{
+    padding-top: 12rem;
+    margin-bottom: 4rem;
+}
+.INFO ul{ display: flex;padding: 0; justify-content: center;}
+.INFO ul li{display: block;margin: 0 2%;}
+.INFO ul li img{height: 3rem;width: 3rem;}
+.INFO ul li h2{font-size: .9rem;text-align: center;font-family: 'reg',sans-serif;}
+
+.INFO button{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-color: #24334B ;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 40%;
+    margin-top: 4rem;
+}
+.INFO button:hover{background-color: #577cb7 ;}
+.INFO button h2{color: whitesmoke;font-size: 2rem;font-family: 'reg',sans-serif;}
+.INFO h3{font-size: .7rem;margin-left: 41%;font-family: 'reg',sans-serif;}
+
+
+/*VEILLE*/
+
+.VEILLE{
+    background-image: url(/IMAGE/awwwardssite2.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    background-clip: content-box;
+    height: 210vw;
+    width: 100%;
+}
+.VEILLE img{height: 4rem;width: 30rem;margin-top: 8rem;margin-left: 2%;}
+.VEILLE p{color: whitesmoke;font-size: 1.5rem;text-align: center;}
+.VEILLE button{width: 96%;margin: 0 2%;font-size: 1.5rem;}
 }
