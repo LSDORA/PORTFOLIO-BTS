@@ -4,7 +4,7 @@
 
 # CHARTES GRAPHIQUE
 
-![Logo Markdown](./IMAGE/charteG.png)
+![Logo Markdown](./IMAGE/chartG.png)
 
 # FONT
 
