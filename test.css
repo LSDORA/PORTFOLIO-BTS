@@ -1,0 +1,18 @@
+*{margin: 0;
+padding: 0;}
+
+section{
+    height: 48vw;
+    width: 400%;
+    background-color: burlywood;
+}
+
+section li{display: inline-block;margin-top: 4rem;margin-left: 2rem;}
+
+section img{  display: inline-block;height:15rem; width:12rem;margin-top: 10rem;}
+
+section div{display: none;vertical-align: top;margin-top: 14rem;margin-left: 10rem;}
+
+.active {display: inline-block;}
+.activeimg{transform: scale(4);}
+.visited{margin-left: 10rem;}
