@@ -2,25 +2,25 @@
 
 @font-face {
     font-family: 'jeju'; 
-    src: url('/FONT/JejuGothic-Regular.ttf') format('truetype');
+    src: url('../FONT/JejuGothic-Regular.ttf') format('truetype');
   }
 
 @font-face {
     font-family: 'title'; 
-    src: url('/FONT/Monoton-Regular.ttf') format('truetype');
+    src: url('../FONT/Monoton-Regular.ttf') format('truetype');
     
    
 }
 
 @font-face {
     font-family: 'reg'; 
-    src: url('/FONT/MiriamLibre-Regular.ttf') format('truetype');
+    src: url('../FONT/MiriamLibre-Regular.ttf') format('truetype');
     font-weight: 00;
  }
 
 @font-face {
     font-family: 'bold'; 
-    src: url('/FONT/MiriamLibre-Bold.ttf') format('truetype');
+    src: url('../FONT/MiriamLibre-Bold.ttf') format('truetype');
   }
 
 
@@ -143,7 +143,7 @@ margin-top: 0rem;
 /*VEILLE*/
 
 .VEILLE{
-background-image: url(/IMAGE/awwwardssite2.png);
+background-image: url(../IMAGE/awwwardssite2.png);
 background-size: cover;
 background-position: center;
 backdrop-filter: blur(5px);
@@ -259,7 +259,7 @@ width: 100%;
 /*VEILLE*/
 
 .VEILLE{
-    background-image: url(/IMAGE/awwwardssite2.png);
+    background-image: url(../IMAGE/awwwardssite2.png);
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(5px);
@@ -375,7 +375,7 @@ width: 100%;
 /*VEILLE*/
 
 .VEILLE{
-    background-image: url(/IMAGE/awwwardssite2.png);
+    background-image: url(../IMAGE/awwwardssite2.png);
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(5px);
@@ -491,7 +491,7 @@ width: 100%;
 /*VEILLE*/
 
 .VEILLE{
-    background-image: url(/IMAGE/awwwardssite2.png);
+    background-image: url(../IMAGE/awwwardssite2.png);
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(5px);
@@ -613,7 +613,7 @@ width: 100%;
 /*VEILLE*/
 
 .VEILLE{
-    background-image: url(/IMAGE/awwwardssite2.png);
+    background-image: url(../IMAGE/awwwardssite2.png);
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(5px);
