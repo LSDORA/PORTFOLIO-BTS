@@ -29,9 +29,9 @@
 
 /*General*/
 
-html{ font-size: 65.5%;}
+html{ font-size: 65.5%;scroll-behavior: smooth;}
 section{margin: 0;padding: 0;}
-body{margin: 0;padding: 0;}
+body{margin: 0;padding: 0;overflow: hidden;}
 h1{margin: 0;padding: 0;}
 
 ul li a {
