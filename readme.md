@@ -6,8 +6,8 @@ Lien vers mon Portfolio [ICI](https://lsdora.github.io/PORTFOLIO-BTS/)
 
 
 ## CHARTE GRAPHIQUE
-![charteGraphique](.images/charte.png)
+![charteGraphique](./images/charte.png)
 ## CHARTE TYPO
-![charteTypo](.images/typo.png)
+![charteTypo](./images/typo.png)
 
 ## WIREFRAME
