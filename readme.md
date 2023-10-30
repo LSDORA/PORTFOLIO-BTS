@@ -1,11 +1,13 @@
-# projet
-portfolio [home page]( )
+# MON PORTFOLIO
 
-Gloomaps [structure](https://www.gloomaps.com/sDKps9wzRm)
+Lien vers mon Portfolio [ICI](https://lsdora.github.io/PORTFOLIO-BTS/)
+
 ## PRESENTATION
+
 
 ## CHARTE GRAPHIQUE
 ![charteGraphique](/asset/chartreGraphique.png)
 ## CHARTE TYPO
-![charteTypo](/asset/chartre_typo.png)(https://fonts.google.com/specimen/Fredericka+the+Great?preview.text=1&preview.text_type=custom&stroke=Serif)
-insérer du code = 
+![charteTypo](/asset/chartre_typo.png)
+
+## WIREFRAME
