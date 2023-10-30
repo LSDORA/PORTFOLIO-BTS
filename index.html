@@ -1,77 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
+	
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ngampolo Aymerick</title>
-  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="">
-  <meta name="description" content="Mettez votre description ici.">
-  <script src="URL_COMPLET_JS/anime.js"></script>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="#H">HOME</a></li>
-      <li><a href="#W">WORK</a></li>
-      <li><a href="#I">INFO</a></li>
-      <li><a href="#V">VEILLE</a></li>
-    </ul>
-  </nav>
-  <section id="H" class="HOME">
-    <div>
-      <img class="logo" src="./IMAGE/ANG.png" alt="mon logo">
-      <img class="light" src="./IMAGE/idea.png" alt="light" width="2.5%" height="5%">
-    </div>
-    <h1 class="role-text">AYMERICK NGAMPOLO</h1>
-    <h2 class="role-text">“. . . Les ordinateurs sont incroyablement rapides, précis et idiots. Les humains sont incroyablement lents, imprécis et brillants. Ensemble, ils sont puissants au-delà de l'imagination.”, Niklaus Wirth</h2>
-  </section>
-  <section id="W" class="WORK">
-    <img src="./IMAGE/ecorepo.png" alt="application gestion de rapport d'entreprise" width="33.2%" height="70%">
-    <img src="./IMAGE/servadmin.png" alt="application gestion d'élève" width="33.2%" height="70%">
-    <img src="./IMAGE/port.png" alt="Project portfolio" width="33.2%" height="70%">
-  </section>
-  <section id="I" class="INFO">
-    <h1>“Si vous souhaitez discuter d'une opportunité ou d'une discussion sur le design web, n'hésitez pas à me contacter en utilisant les liens ci-dessous.”</h1>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/aymerickng/" target="_blank"><img src="./IMAGE/linkedin.png"  alt=""></a>
-        <h2>Linkedin</h2>
-      </li>
-      <li>
-        <a href="mailto:aymerickng@gmail.com" target="_blank"><img src="./IMAGE/gmail.png" alt=""></a>
-        <h2>Mail</h2>
-      </li>
-      <li>
-        <a href="https://github.com/LSDORA" target="_blank"><img src="./IMAGE/github.png" alt=""></a>
-        <h2>Github</h2>
-      </li>
-      <li>
-        <a href="" target="_blank"><img src="./IMAGE/ClipartKey_3212836.png" alt=""></a>
-        <h2>Phone</h2>
-      </li>
-      <li>
-        <a href="./CV/CV Ngampolo Aymerick (1).pdf" target="_blank"><img src="./IMAGE/cv.png" alt=""></a>
-        <h2>Mon CV</h2>
-      </li>
-    </ul>
-    <h1>“Je suis actuellement en BTS 2ème année en Service Informatique aux Organisations et je recherche une alternance”</h1>
-    <button class="contactdirect" type="button">
-      <h2>→</h2>
-    </button>
-    <h3>CONTACT DIRECT</h3>
-    <form action="" method="get" style="display: none;">
-      <input type="text" name="prenom_nom" placeholder="Prenom / Nom">
-      <input type="email" name="email" placeholder="Mail">
-      <input type="number" name="numero" placeholder="Numero">
-      <textarea name="message" cols="30" rows="10"></textarea>
-      <button type="submit">ENVOYER</button>
-    </form>
-  </section>
-  <section id="V" class="VEILLE">
-    <img src="./IMAGE/awwwardsWHITE.png" alt="">
-    <p>Parlez de Awwwards et racontez tout</p>
-    <a href="https://www.awwwards.com/" target="_blank"><button>Visiter le site !</button></a>
-  </section>
-</body>
+		<title>Aymerick, Dev Front & Back-end.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">HOME</a></li>
+							<li><a href="#one">WORK</a></li>
+							<li><a href="#two">COMPETENCE</a></li>
+							<li><a href="#three">CONTACT</a></li>
+							<li><a href="./veille.html">VEILLE</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>AYMERICK NGAMPOLO</h1>
+							<h2>Support IT / Developpeur web</h2>
+							<p>Terminant mes études de BTS SIO option SLAM a l’école ITIC PARIS, après une année en Double Licence Mathématiques Informatique a l’université de La Sorbonne.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Projets</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic02.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>EcoReport — ECOBANK INTERNATIONAL</h2>
+									<p>REACTJS - JAVA - MAVEN - ORACLE DEV - CSS<br />
+                                    Application développée permettant à l'utilisateur de consulter ses comptes et de modifier son profil et ses informations.
+                                    Une mise à jour a suivi le déploiement avec sécurisation des bases de données.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>ServAdmin — ECOLE IRIS PARIS</h2>
+									<p>JAVA - CSS - PHP MY ADMIN<br />
+                                    Application pour la gestion d'une base de données des éléves et de leur profils.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Mon Portfolios — ECOLE ITIC PARIS</h2>
+									<p>JAVASCRIPT - HTML - CSS<br />
+                                    Création de mon portfolio</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>ART & ODEURS — FREELANCE</h2>
+									<p>JAVASCRIPT - HTML - CSS<br />
+                                    Création d'un site web fonctionnel pour la boite ART & ODEURS</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>ART & ODEURS — FREELANCE</h2>
+									<p>JAVASCRIPT - HTML - CSS<br />
+                                    Création d'un site web fonctionnel pour la boite ART & ODEURS</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Services</h2>
+							<p>Passionné d'informatique, j’ai de l’appétence
+								pour produire du code de qualité . Je suis
+								une personne d’un naturel curieux qui me
+								permet d’aller toujours plus loin dans ce que
+								je fais. Je suis quelqu’un d’aimable et de
+								professionnel.
+								</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Developeur Front End</h3>
+									<p>Conception de site web static et dynamique, Conception d'application Web avec REACT / NEXT JS</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Developeur Back End</h3>
+									<p>Concepetion de logiciel en JavaConcepetion de logiciel en JavaConcepetion de logiciel en Java</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Gestion de bases de données</h3>
+									<p>Creation de base de donnée sur phpmyadmin, Travail sur base de donnée ORACLE DEV chez ECOBANK INTERNATIONAL (Creation d'une application qui agis sur la base de donnée)</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Langages</h3>
+									<p>HTML • CSS • PHP • REACT • ORACLE DEV • JAVA • ANGULAR • LARAVEL • PHYTON • C+</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Réseaux</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Services de maintenance Réseaux</h3>
+									<p>Gestion d'un Active Directory, Connaissance en Ethical Hacking, Concepetion de plan de Réseaux ethernet Complexe</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">EN SAVOIR PLUS</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Me contacter</h2>
+							<p>Pour une alternance, ou un projet sympathique Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Nom</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="#" class="button submit">ENVOYER</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+																				<li>
+											<h3>Email</h3>
+											<a href="mailto:aymerickng@gmail.com">aymerickng@gmail.com</a>
+										</li>
+										<li>
+											<h3>Telephone</h3>
+											<span>+33 7 61 12 53 01</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+												<li><a href="./CV Ngampolo Aymerick (1).pdf" class="icon fa-regular fa-file" target="_blank"><span class="label">Mon cv</span></a></li>
+												<li><a href="https://github.com/LSDORA" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/aymerickng/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+										
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; NGAMPOLO.2023 All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+<!-- Mirrored from www.art176.com/ang/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Oct 2023 22:29:00 GMT -->
 </html>
